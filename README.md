@@ -30,7 +30,10 @@ export PATH=$CUDA_HOME/bin:$PATH
 
 ```shell
 # Make sure that your environment meets the requirements above
+# For installing from the original source: 
 pip install git+https://github.com/tatsy/torchmcubes.git
+# For installing from the patched version of CUDA 12 nvtx3 library detection issue
+pip install git+https://github.com/kayabajames/torchmcubes.git
 ```
 
 ## Usage
